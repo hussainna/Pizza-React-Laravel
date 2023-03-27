@@ -1,0 +1,33 @@
+@import '../../../sass/config.scss';
+
+.order{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url('./images/featured3.jpg');
+
+    background-position: center;
+    background-size: cover;
+    .container{
+        align-items: center;
+        text-align: center;
+        padding-top: 10%;
+        h1{
+            font-size: 60px;
+            font-weight: 800;
+            color: #fff;
+
+        }
+
+        p{
+            margin: 10px 0;
+            color: #fff;
+            font-size: 20px;
+        }
+        button{
+            font-size: 15px;
+            @include button;
+            margin-top: 10px;
+        }
+    }
+}

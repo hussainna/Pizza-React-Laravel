@@ -1,0 +1,29 @@
+
+.place input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.place .left{
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.place .right{
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+.place thead{
+    margin-bottom: 10px;
+}
+.place th,td{
+    padding-left: 50px;
+}
+button{
+    margin-top: 20px;
+}

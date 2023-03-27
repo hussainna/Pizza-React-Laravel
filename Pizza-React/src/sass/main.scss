@@ -1,0 +1,21 @@
+@import './config.scss';
+
+footer{
+    background-color: #0d0909;
+    width: 100%;
+    .container{
+        h2{
+            color: #fff;
+            font-size: 25px;
+            font-weight: 900;
+        }
+        padding: 30px 0;
+        @include flex(space-between,center);
+        i{
+            margin-left: 20px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 25px;
+        }
+    }
+}

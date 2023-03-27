@@ -1,0 +1,52 @@
+.card{
+    width: 80%;
+    margin-left: 50px;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .form-group{
+    display: flex;
+    flex-direction:column;
+  }
+  label{
+    margin: 10px 0;
+  }
+  input{
+    padding: 10px;
+  }
+  .card-top{
+    background-color: #04AA6D;
+    padding: 10px 10px;
+  }
+  table{
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .card-top h4{
+    color: #fff;
+  }
+  tbody{
+    margin-top: 10px;
+  }
+
+.button{
+    background-color: #04AA6D;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+button{
+    background-color: #04AA6D;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
